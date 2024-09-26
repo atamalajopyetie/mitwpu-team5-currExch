@@ -21,7 +21,7 @@ The Currency Converter Application is a web app designed to help users convert c
 - Docker: Packages the app for easy deployment and consistent performance.
 - Pandas & NumPy: Libraries for data processing and analysis.
 - StatsModels: For building the predictive models in the Future Prediction feature.
-- 
+  
 # How the Code is Organized
 - [Main App (app.py)](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/app.py "Main App (app.py)"): The entry point that brings together all features.
 Shows different tabs: Dashboard, Currency Bucket, Future Prediction, and Exchange Rates.
@@ -100,4 +100,5 @@ Copy code
 docker-compose down
 
 # Future Plans AI Integration:
-- Enhance the currency prediction feature using more advanced AI models. - -- Firebase: Continue using Firebase to store data and keep the exchange rates up to date in real time.
+- Enhance the currency prediction feature using more advanced AI models.
+- Firebase: Continue using Firebase to store data and keep the exchange rates up to date in real time.
