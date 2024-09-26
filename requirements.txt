@@ -1,0 +1,6 @@
+flask
+pymongo
+pandas
+streamlit
+matplotlib
+statsmodels

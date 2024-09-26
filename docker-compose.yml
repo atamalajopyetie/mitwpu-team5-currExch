@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  currency_converter_app:
+    build: .
+    ports:
+      - "8501:8501"  # Map port 8501 of the container to port 8501 of the host
+    volumes:
+      - .:/app  # Mount current directory to /app in the container
+    environment:
+      - PYTHONUNBUFFERED=1  # Ensure output is flushed to console
