@@ -57,7 +57,7 @@ Clone the Repository:
 - Open your terminal (Command Prompt, PowerShell, or any other terminal) and run:
 bash Copy code
 `git clone [<https://github.com/atamalajopyetie/nt_mitwpu_hackathon>](https://github.com/atamalajopyetie/mitwpu-team5-currExch)`
-Replace <https://github.com/atamalajopyetie/nt_mitwpu_hackathon> with the actual URL of your GitHub repository.
+Replace [<https://github.com/atamalajopyetie/nt_mitwpu_hackathon>](https://github.com/atamalajopyetie/mitwpu-team5-currExch) with the actual URL of your GitHub repository.
 - Navigate to the Project Directory:
 bash Copy code
 `cd currency_converter_app`
