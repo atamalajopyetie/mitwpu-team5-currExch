@@ -1,5 +1,6 @@
 # Currency Converter Application
-
+# To Access app directly 
+https://currexch-aidudbniw3gjmvwhgamqtp.streamlit.app
 # Overview 
 The Currency Converter Application is a web app designed to help users convert currencies, view real-time exchange rates, analyze historical trends, and predict future currency rates. Built with Streamlit and Python, the app is useful for travelers, businesses, and financial analysts who need accurate and up-to-date exchange rate information.
 
@@ -92,10 +93,8 @@ Copy code
 http://localhost:8501
 Stopping the Application
 To stop the application, press Ctrl + C in the terminal. If you're running it with Docker, you can stop the container with:
-
-bash
-Copy code
-docker-compose down
+bash Copy code
+`docker-compose down`
 
 # Future Plans AI Integration:
 - Enhance the currency prediction feature using more advanced AI models.
