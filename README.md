@@ -5,7 +5,7 @@ The Currency Converter Application is a web app designed to help users convert c
 
 # Features
 - Real-Time Exchange Rates: Displays live exchange rates for multiple currencies.
-- Currency Conversion: Instantly convert amounts between selected currencies.
+- Currency Bucket: Instantly convert amounts between selected currencies.
 - Historical Data: View and analyze past exchange rates.
 - Future Predictions: Use AI models to predict future currency rates.
 - Graphs and Charts: Visualize data with clear line and bar graphs.
@@ -53,7 +53,6 @@ Before running the application, ensure you have the following installed:
 
 Option 1: Running the App Locally (Without Docker)
 Clone the Repository:
-
 - Open your terminal (Command Prompt, PowerShell, or any other terminal) and run:
 bash Copy code
 `git clone <https://github.com/atamalajopyetie/nt_mitwpu_hackathon>`
@@ -76,8 +75,7 @@ Copy code
 http://localhost:8501
 
 Option 2: Running the App with Docker
-Clone the Repository:
-
+- Clone the Repository:
 bash Copy code
 `git clone <https://github.com/atamalajopyetie/nt_mitwpu_hackathon>`
 - Navigate to the Project Directory:
