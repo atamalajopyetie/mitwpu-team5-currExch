@@ -1,49 +1,49 @@
-#Currency Converter Application
+# Currency Converter Application
 
-#Overview 
+# Overview 
 The Currency Converter Application is a web app designed to help users convert currencies, view real-time exchange rates, analyze historical trends, and predict future currency rates. Built with Streamlit and Python, the app is useful for travelers, businesses, and financial analysts who need accurate and up-to-date exchange rate information.
 
-#Features
+# Features
+- Real-Time Exchange Rates: Displays live exchange rates for multiple currencies.
+- Currency Conversion: Instantly convert amounts between selected currencies.
+- Historical Data: View and analyze past exchange rates.
+- Future Predictions: Use AI models to predict future currency rates.
+- Graphs and Charts: Visualize data with clear line and bar graphs.
 
-Real-Time Exchange Rates: Displays live exchange rates for multiple currencies.
-Currency Conversion: Instantly convert amounts between selected currencies.
-Historical Data: View and analyze past exchange rates.
-Future Predictions: Use AI models to predict future currency rates.
-Graphs and Charts: Visualize data with clear line and bar graphs.
-#Who Can Use This?
+# Who Can Use This?
+- Travelers: Quickly check conversion rates for different currencies while traveling.
+- Businesses: Get real-time updates on exchange rates to help with financial decisions.
+- Analysts: Analyze currency trends to make informed predictions.
 
-Travelers: Quickly check conversion rates for different currencies while traveling.
-Businesses: Get real-time updates on exchange rates to help with financial decisions.
-Analysts: Analyze currency trends to make informed predictions.
-#Technologies Used
-
-Streamlit: Creates the interactive user interface.
-Python: Handles the application logic and data analysis.
-Docker: Packages the app for easy deployment and consistent performance.
-Pandas & NumPy: Libraries for data processing and analysis.
-StatsModels: For building the predictive models in the Future Prediction feature.
-#How the Code is Organized
-
-[Main App (app.py)](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/app.py "Main App (app.py)"): The entry point that brings together all features.
+# Technologies Used
+- Streamlit: Creates the interactive user interface.
+- Python: Handles the application logic and data analysis.
+- Docker: Packages the app for easy deployment and consistent performance.
+- Pandas & NumPy: Libraries for data processing and analysis.
+- StatsModels: For building the predictive models in the Future Prediction feature.
+- 
+# How the Code is Organized
+- [Main App (app.py)](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/app.py "Main App (app.py)"): The entry point that brings together all features.
 Shows different tabs: Dashboard, Currency Bucket, Future Prediction, and Exchange Rates.
-Supporting Files:
-[dashboard.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/dashboard.py "dashboard.py:") Displays key information and app metrics.
-[currency_bucket.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/currency_bucket.py "currency_bucket.py:") Manages a list of currencies for easy access.
-[future_prediction.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/future_prediction.py "future_prediction.py:") Uses AI to predict future exchange rates.
-[exchange_rate.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/exchange_rate.py "exchange_rate.py:") Retrieves and shows live exchange rate data.
-[Requirements File](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/requirements.txt "Requirements File"): The requirements.txt file lists the Python packages you need to run this app.
-#Docker Configuration:
-
-[Dockerfile:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/Dockerfile "Dockerfile:") Specifies how the app should be built and run in a Docker container.
-[docker-compose.yml](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/docker-compose.yml "docker-compose.yml"): Helps manage and run the app using Docker Compose.
-#Running the App Locally 
--Clone this repository to your computer. 
--Build and run the Docker container:
+- Supporting Files:
+- [dashboard.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/dashboard.py "dashboard.py:") Displays key information and app metrics.
+- [currency_bucket.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/currency_bucket.py "currency_bucket.py:") Manages a list of currencies for easy access.
+- [future_prediction.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/future_prediction.py "future_prediction.py:") Uses AI to predict future exchange rates.
+- [exchange_rate.py:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/exchange_rate.py "exchange_rate.py:") Retrieves and shows live exchange rate data.
+- [Requirements File](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/requirements.txt "Requirements File"): The requirements.txt file lists the Python packages you need to run this app.
+  
+# Docker Configuration:
+- [Dockerfile:](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/Dockerfile "Dockerfile:") Specifies how the app should be built and run in a Docker container.
+- [docker-compose.yml](https://github.com/atamalajopyetie/nt_mitwpu_hackathon/blob/main/docker-compose.yml "docker-compose.yml"): Helps manage and run the app using Docker Compose.
+  
+# Running the App Locally 
+- Clone this repository to your computer. 
+- Build and run the Docker container:
 	 on bash Copy code
 	 `docker-compose up --build`
 	 Open your browser and go to http://localhost:8501 to view the app.
 
-#Runnung the Python Code:
+# Running the Python Code:
 
 Before running the application, ensure you have the following installed:
 
