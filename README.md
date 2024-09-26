@@ -98,5 +98,6 @@ To stop the application, press Ctrl + C in the terminal. If you're running it wi
 bash
 Copy code
 docker-compose down
-#Future Plans AI Integration:
-Enhance the currency prediction feature using more advanced AI models. Firebase: Continue using Firebase to store data and keep the exchange rates up to date in real time.
+
+# Future Plans AI Integration:
+- Enhance the currency prediction feature using more advanced AI models. - -- Firebase: Continue using Firebase to store data and keep the exchange rates up to date in real time.
