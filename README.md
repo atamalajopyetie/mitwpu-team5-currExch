@@ -56,8 +56,8 @@ Option 1: Running the App Locally (Without Docker)
 Clone the Repository:
 - Open your terminal (Command Prompt, PowerShell, or any other terminal) and run:
 bash Copy code
-`git clone [<https://github.com/atamalajopyetie/nt_mitwpu_hackathon>](https://github.com/atamalajopyetie/mitwpu-team5-currExch)`
-Replace [<https://github.com/atamalajopyetie/nt_mitwpu_hackathon>](https://github.com/atamalajopyetie/mitwpu-team5-currExch) with the actual URL of your GitHub repository.
+`git clone <https://github.com/atamalajopyetie/mitwpu-team5-currExch>`
+Replace <https://github.com/atamalajopyetie/mitwpu-team5-currExch> with the actual URL of your GitHub repository.
 - Navigate to the Project Directory:
 bash Copy code
 `cd currency_converter_app`
@@ -78,7 +78,7 @@ http://localhost:8501
 Option 2: Running the App with Docker
 - Clone the Repository:
 bash Copy code
-`git clone [<https://github.com/atamalajopyetie/nt_mitwpu_hackathon>](https://github.com/atamalajopyetie/mitwpu-team5-currExch)`
+`git clone <https://github.com/atamalajopyetie/mitwpu-team5-currExch>`
 - Navigate to the Project Directory:
 bash Copy code
 `cd currency_converter_app`
