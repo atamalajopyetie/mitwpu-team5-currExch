@@ -5,7 +5,7 @@ import pandas as pd
 
 # Function to get exchange rates
 def get_exchange_rates(base_currency='USD'):
-    url = f'https://v6.exchangerate-api.com/v6/67663e5c57d81adae0ce6789/latest/{base_currency}'
+    url = f'https://v6.exchangerate-api.com/v6/c616daa3d69e101f81daa5f2/latest/{base_currency}'
     response = requests.get(url)
 
     if response.status_code == 200:
